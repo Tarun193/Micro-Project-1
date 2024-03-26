@@ -1,0 +1,146 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Galactic Adventures",
+            "year": 2024,
+            "genre": "Sci-Fi",
+            "description": "A thrilling journey through space as a group of adventurers uncover the mysteries of the universe."
+        },
+        {
+            "id": 2,
+            "title": "The Mystery of Eldridge Manor",
+            "year": 2023,
+            "genre": "Mystery",
+            "description": "Intrigue and suspense await as detectives unravel the secrets hidden within a grand old manor."
+        },
+        {
+            "id": 3,
+            "title": "Heroes Reborn",
+            "year": 2024,
+            "genre": "Action",
+            "description": "An action-packed story of heroism and courage as a new generation of heroes emerges to save the world."
+        },
+        {
+            "id": 4,
+            "title": "Lost in Time",
+            "year": 2025,
+            "genre": "Drama",
+            "description": "A poignant journey through love and time, exploring the depths of human connection."
+        },
+        {
+            "id": 5,
+            "title": "The Last Kingdom",
+            "year": 2023,
+            "genre": "Fantasy",
+            "description": "In a land divided by war, a fallen kingdom's last hope lies in uniting the scattered tribes."
+        },
+        {
+            "id": 6,
+            "title": "Beyond the Horizon",
+            "year": 2024,
+            "genre": "Adventure",
+            "description": "A tale of discovery and friendship as explorers venture beyond the known world."
+        },
+        {
+            "id": 7,
+            "title": "Echoes of the Past",
+            "year": 2025,
+            "genre": "Thriller",
+            "description": "A chilling mystery unfolds as a historian uncovers dark secrets in an ancient manuscript."
+        },
+        {
+            "id": 8,
+            "title": "Neon Dreams",
+            "year": 2023,
+            "genre": "Musical",
+            "description": "The vibrant story of an aspiring singer's rise to fame in the eclectic city nightlife."
+        },
+        {
+            "id": 9,
+            "title": "The Great Escape",
+            "year": 2024,
+            "genre": "Comedy",
+            "description": "A hilarious adventure ensues when a group of friends plan the most elaborate vacation escape."
+        },
+        {
+            "id": 10,
+            "title": "Shadows in the Mist",
+            "year": 2025,
+            "genre": "Horror",
+            "description": "A group of friends encounter their worst nightmares in a haunted village shrouded in mist."
+        }
+    ],
+    "tvShows": [
+        {
+            "id": 1,
+            "title": "Chronicles of the Future",
+            "year": 2023,
+            "genre": "Sci-Fi",
+            "description": "Follow the journey of a group of time travelers as they navigate the complexities of the future to save their world from impending doom."
+        },
+        {
+            "id": 2,
+            "title": "Under the Dome",
+            "year": 2022,
+            "genre": "Mystery",
+            "description": "A small town suddenly finds itself isolated from the rest of the world under a mysterious dome, sparking a fight for survival and a quest for answers."
+        },
+        {
+            "id": 3,
+            "title": "The Last Kingdom",
+            "year": 2024,
+            "genre": "Historical Drama",
+            "description": "In a time of kings and warriors, one man must rise to unite a divided country and forge a new kingdom from the ashes of the old."
+        },
+        {
+            "id": 4,
+            "title": "Galactic Guardians",
+            "year": 2023,
+            "genre": "Adventure",
+            "description": "A band of misfit heroes travels across the galaxy to protect the universe from cosmic threats and uncover ancient mysteries."
+        },
+        {
+            "id": 5,
+            "title": "Riverdale Mysteries",
+            "year": 2022,
+            "genre": "Crime",
+            "description": "A group of teenagers uncovers the dark secrets of their seemingly perfect town, revealing hidden truths that change their lives forever."
+        },
+        {
+            "id": 6,
+            "title": "Arcane Worlds",
+            "year": 2023,
+            "genre": "Fantasy",
+            "description": "In a realm where magic and technology collide, a young mage embarks on a quest to uncover her true power and destiny."
+        },
+        {
+            "id": 7,
+            "title": "Beyond the Horizon",
+            "year": 2024,
+            "genre": "Documentary",
+            "description": "Explore the breathtaking landscapes and untold stories of remote corners of the Earth, narrated by the world's most renowned explorers."
+        },
+        {
+            "id": 8,
+            "title": "Echoes of the Past",
+            "year": 2022,
+            "genre": "Thriller",
+            "description": "A detective with the ability to communicate with the dead solves cold cases by uncovering chilling secrets from the past."
+        },
+        {
+            "id": 9,
+            "title": "The Mind's Eye",
+            "year": 2023,
+            "genre": "Psychological Thriller",
+            "description": "A brilliant psychiatrist uses unconventional methods to enter the minds of his patients, but discovers a horrifying truth within his own psyche."
+        },
+        {
+            "id": 10,
+            "title": "Frontier Legends",
+            "year": 2024,
+            "genre": "Western",
+            "description": "Set against the backdrop of the American frontier, this series follows the tumultuous lives of settlers and outlaws vying for survival and prosperity."
+        }
+    ]
+}

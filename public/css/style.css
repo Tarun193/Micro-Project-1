@@ -1,0 +1,135 @@
+/* Add your CSS styles here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main {
+  flex-grow: 1;
+}
+.navbar,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar a,
+.footer a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.hero-section {
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.content-section h2 {
+  margin-top: 0;
+}
+
+.button-group {
+  margin: 5px;
+}
+
+.button-group .button {
+  text-decoration: none;
+  color: white; /* Text color */
+  background-color: #007bff; /* Button color */
+  padding: 10px 20px; /* Top and bottom padding, left and right padding */
+  margin: 5px; /* Spacing between buttons */
+  border-radius: 5px; /* Rounded corners */
+  display: inline-block; /* Allows applying padding and margins */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.button-group .button:hover,
+.button-group .button:focus {
+  background-color: #0056b3; /* Darker shade for hover/focus */
+  transform: translateY(-2px); /* Slight lift effect */
+  outline: none; /* Removes the outline on focus for aesthetics */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.about-section,
+.team-section,
+.contact-section {
+  padding: 20px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+.movie {
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.movie h2 {
+  margin-top: 0;
+}
+.movie p {
+  font-size: 14px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 5px;
+}
+
+#fetchMovies,
+#fetchTVShows {
+  background-color: #4caf50; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding inside the button */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline on the text */
+  display: inline-block; /* Allows setting dimensions */
+  font-size: 16px; /* Text size */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 12px; /* Rounded corners */
+}
+
+#fetchButton:hover {
+  background-color: #45a049; /* Darker shade of green on hover */
+}
